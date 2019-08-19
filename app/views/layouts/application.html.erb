@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <%= link_to 'See All Courses', courses_path, class: 'nav-link' %>
             </li>
           </ul>
           <ul class="nav navbar-nav float-lg-right">
@@ -38,7 +38,7 @@
       <div class="container">
         <b>Footer Here</b>
         <br />
-        <%= link_to 'Link', '#' %>
+        <%= link_to 'Teach a Course', new_instructor_course_path %>
       </div>
     </div>
   </body>
