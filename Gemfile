@@ -60,7 +60,7 @@ gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 gem 'devise'
-gem 'carrierwave'
+gem 'carrierwave-aws'
 gem 'figaro'
 gem "fog-aws"
 source 'https://rails-assets.org' do
