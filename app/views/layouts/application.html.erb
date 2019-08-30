@@ -34,6 +34,12 @@
           </ul>
         </div>
       </nav>
+      <% if notice.present? %>
+        <p class="notice alert-info"><%= notice %></p>
+      <% end %>
+      <% if alert.present? %>
+        <p class="alert alert-danger"><%= alert %></p>
+      <% end %>
 
       <%= yield %>
     </div>
@@ -60,7 +66,7 @@
       <div class="col-12 col-sm-3">
         <b>Contact</b>
         <br />
-        my@email.com
+        newkarl@email.com
         <br />
         One Kendall Square
         <br />
